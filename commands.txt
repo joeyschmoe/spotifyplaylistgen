@@ -1,0 +1,10 @@
+python -m venv project
+.\project\Scripts\activate
+python -m pip install spotipy --upgrade pip
+SPOTIPY_CLIENT_ID = '267667063f5546daab698c699deea638'
+SPOTIPY_CLIENT_SECRET = 'dac476373d9640ed8854f3969bb0bb6c'
+SPOTIPY_REDIRECT_URI = 'http://localhost:5000/callback'
+
+export SPOTIPY_CLIENT_ID=267667063f5546daab698c699deea638
+export SPOTIPY_CLIENT_SECRET=dac476373d9640ed8854f3969bb0bb6c
+export SPOTIPY_REDIRECT_URI=http://localhost:5000/callback
